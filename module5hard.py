@@ -93,18 +93,7 @@ class UrTube:
         video.time_now = 0
         return
 
-    # if self.current_user and self.current_user.age < 18:
-    #    print("Вам нет 18 лет, пожалуйста покиньте страницу")
-    # elif self.current_user == self.users:
-    #   for video in self.videos:
-    #      if film in video.titles:
-    #         for i in range(video.duration):
-    #            print(i + 1, end='')
-    #           time.sleep(1)
-    #      print("Конец видео")
-    #     self.current_user.time_now = 0
-    # else:
-    # print("Видео не найдено")
+
 
 
 ur = UrTube()
